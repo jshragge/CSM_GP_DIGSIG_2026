@@ -1,0 +1,16 @@
+# Python environment for the GPGN 404 Digital Signal Processing course notes.
+# Create it with:   conda env create -f environment.yml
+# Activate it with: conda activate dsp2026
+name: dsp2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy>=2.0
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - pandas>=2.0
+  - sympy>=1.12
+  - ipywidgets>=8.0
+  - jupyterlab>=4.0
+  - ipykernel
