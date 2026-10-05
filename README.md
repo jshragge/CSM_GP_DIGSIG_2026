@@ -11,7 +11,10 @@ geophysical data.
 
 Clone the repository into the folder where you want the notes:
 
-    git clone https://github.com/jshragge/CSM_GP_DIGSIG_2026.git
+    git clone --depth 1 https://github.com/jshragge/CSM_GP_DIGSIG_2026.git
+
+The `--depth 1` option downloads only the current version of the notes (about 13 MB) rather than the full history.
+To get updates during the semester, run `git pull` inside the `CSM_GP_DIGSIG_2026` folder.
 
 ## Setting up the `dsp2026` Python environment
 
